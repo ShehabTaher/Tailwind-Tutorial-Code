@@ -1,31 +1,89 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>Typography</title>
-  </head>
-  <body>
-    <!-- Font Family -->
 
-    <!-- Font Size -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    Tailwind.config = {
+      theme: {
+        fontFamily: {
+          'sans': ['ui-sans-serif', 'system-ui'],
+          'serif': ['ui-serif', 'Georgia'],
+          'mono': ['ui-monospace', 'SFMono-Regular'],
+         
+        }
+      }
+    }
+  </script>
+  <title>Typography</title>
+</head>
 
-    <!-- Font Weight -->
+<body>
 
-    <!-- Letter Spacing -->
+  <!-- Font Family -->
+  <h1 class="p-4">Font Family :</h1>
+  <div class="font-sans">Shehab is Good Person</div>
+  <div class="font-serif">Shehab is Good Person</div>
+  <div class="font-mono">Shehab is Good Person</div>
+  
+  <!-- Font Size -->
+  <h1 class="p-4">Font Size :</h1>
+  <div class="text-xs">Shehab is Good Person</div>
+  <div class="text-sm">Shehab is Good Person</div>
+  <div class="text-base">Shehab is Good Person</div>
+  <div class="text-lg">Shehab is Good Person</div>
+  <div class="text-xl">Shehab is Good Person</div>
+  <div class="text-2xl">Shehab is Good Person</div>
+  <div class="text-3xl">Shehab is Good Person</div>
+  
+  <!-- Font Weight -->
+  <h1 class="p-4">Font Weight :</h1>
+  <div class="font-light">Shehab is Good Person</div>
+  <div class="font-normal">Shehab is Good Person</div>
+  <div class="font-medium">Shehab is Good Person</div>
+  <div class="font-semibold">Shehab is Good Person</div>
+  <div class="font-bold">Shehab is Good Person</div>
 
-    <!-- Text Alignment -->
+  <!-- Letter Spacing -->
+  <h1 class="p-4">Letter Spacing :</h1>
+  <div class="tracking-tight">Shehab is Good Person</div>
+  <div class="tracking-normal">Shehab is Good Person</div>
+  <div class="tracking-wide">Shehab is Good Person</div>
 
-    <!-- Text Decoration -->
+  <!-- Text Alignment -->
+  <h1 class="p-4">Text Alignment :</h1>
+  <div class="text-left">Shehab is Good Person</div>
+  <div class="text-center">Shehab is Good Person</div>
+  <div class="text-right">Shehab is Good Person</div>
 
-    <!-- Decoration Style -->
+  <!-- Text Decoration -->
+  <h1 class="p-4">Text Decoration :</h1>
+  <div class="underline decoration-4 decoration-blue-400">Shehab is Good Person</div>
+  
+  <!-- Decoration Style -->
+  <h1 class="p-4">Decoration Style :</h1>
+  <div class="underline decoration-double">Shehab is Good Person</div>
+  <div class="underline decoration-dotted">Shehab is Good Person</div>
+  <div class="underline decoration-dashed">Shehab is Good Person</div>
+  <div class="underline decoration-wavy">Shehab is Good Person</div>
+  
+  <!-- Decoration Offset -->
+  <h1 class="p-4">Decoration Offset :</h1>
+  <div class="underline decoration-4 decoration-blue-400 underline-offset-8">Shehab is Good Person</div>
+  
+  <!-- Text Transform -->
+  <h1 class="p-4">Text Transform :</h1>
+  <p class="normal-case">Shehab is Good Person</p>
+  <p class="uppercase">Shehab is Good Person</p>
+  <p class="lowercase">Shehab is Good Person</p>
+  <p class="capitalize">Shehab is Good Person</p>
+  <p class="capitalize">Shehab is Good Person</p>
 
-    <!-- Decoration Offset -->
+</body>
 
-    <!-- Text Transform -->
-  </body>
 </html>
 
 <!-- Font Family
