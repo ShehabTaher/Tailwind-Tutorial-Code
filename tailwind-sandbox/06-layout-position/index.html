@@ -1,37 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <title>TailwindCSS</title>
-  </head>
-  <body>
-    <!-- Positioning -->
 
-    <!-- Top left corner -->
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>TailwindCSS</title>
+</head>
 
-    <!-- Top right corner -->
+<body>
+  <!-- Positioning -->
+  <h1 class="p-4 underline decoration-4 decoration-black">Positioning :</h1>
+  <div class="relative w-1/2 h-12 bg-red-200">
+    <p>Parent Element </p>
+    <div class="absolute bottom-0 right-0 bg-red-500">
+      <p>Absolute Child</p>
+    </div>
+  </div>
+  <!-- Top left corner -->
+  <h1 class="p-4 underline decoration-4 decoration-black">Top left corner :</h1>
+  <div class="relative h-32 w-32 bg-yellow-100">
+    <div class="absolute left-0 top-0 h-16 w-16 bg-yellow-300"></div>
+  </div>
+  <!-- Top right corner -->
+  <h1 class="p-4 underline decoration-4 decoration-black">Top right corner :</h1>
+  <div class="relative h-32 w-32 bg-yellow-100">
+    <div class="absolute right-0 top-0 h-16 w-16 bg-yellow-300"></div>
+  </div>
 
-    <!-- Bottom left corner -->
+  <!-- Bottom left corner -->
+  <h1 class="p-4 underline decoration-4 decoration-black">Bottom left corner :</h1>
+  <div class="relative h-32 w-32 bg-yellow-100">
+    <div class="absolute left-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+  </div>
 
-    <!-- Bottom right corner -->
+  <!-- Bottom right corner -->
+  <h1 class="p-4 underline decoration-4 decoration-black">Bottom right corner :</h1>
+  <div class="relative h-32 w-32 bg-yellow-100">
+    <div class="absolute right-0 bottom-0 h-16 w-16 bg-yellow-300"></div>
+  </div>
 
-    <!-- Span top edge -->
+  <!-- Span top edge -->
+  <h1 class="p-4 underline decoration-4 decoration-black">Span top edge :</h1>
+  <div class="relative h-32 w-32 bg-yellow-100">
+    <div class="absolute inset-x-0 top-0 h-16 bg-yellow-300"></div>
+  </div>
 
-    <!-- Span left edge -->
+  <!-- Span left edge -->
+  <h1 class="p-4 underline decoration-4 decoration-black">Span left edge :</h1>
+  <div class="relative h-32 w-32 bg-yellow-100">
+    <div class="absolute inset-y-0 left-0 w-16 bg-yellow-300"></div>
+  </div>
 
-    <!-- Span right edge -->
+  <!-- Span right edge -->
+  <h1 class="p-4 underline decoration-4 decoration-black">Span right edge :</h1>
+  <div class="relative h-32 w-32 bg-yellow-100">
+    <div class="absolute inset-y-0 right-0 w-16 bg-yellow-300"></div>
+  </div>
 
-    <!-- Span bottom edge -->
+  <!-- Span bottom edge -->
+  <h1 class="p-4 underline decoration-4 decoration-black">Span top edge :</h1>
+  <div class="relative h-32 w-32 bg-yellow-100">
+    <div class="absolute inset-x-0 bottom-0 h-16 bg-yellow-300"></div>
+  </div>
 
-    <!-- Display Classes -->
+  <!-- Display Classes -->
+  <h1 class="p-4 underline decoration-4 decoration-black">Display Classes :</h1>
+  <div>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab in voluptates <span class="inline font-bold">This is inline</span> doloribus soluta et, itaque enim, dolor inventore modi, <span class="inline-block font-bold">This is inline block</span> nesciunt blanditiis tempora nam architecto quod aut <span class="block font-bold">This is block</span> perspiciatis totam? Praesentium, possimus? Lorem ipsum dolor sit amet consectetur adipisicing elit. <span class="hidden font-bold">This is hidden</span> Unde tenetur ducimus nihil eius tempora vel nobis illo quia et laborum at praesentium error quidem, illum ipsam cum amet velit magni.
+  </div>
 
-    <!-- Z-Index -->
+  <!-- Z-Index -->
+  <h1 class="p-4 underline decoration-4 decoration-black">Z-Index :</h1>
+  <div class="relative h-36">
+    <div class="absolute left-10 w-24 h-24 bg-blue-300 z-40">1</div>
+    <div class="absolute left-20 w-24 h-24 bg-blue-400">2</div>
+    <div class="absolute left-40 w-24 h-24 bg-blue-500 z-10">3</div>
+    <div class="absolute left-60 w-24 h-24 bg-blue-600 z-20">4</div>
+    <div class="absolute left-80 w-24 h-24 bg-blue-700 z-30">5</div>
+  </div>
 
-    <!-- Floats -->
-  </body>
+  <!-- Floats -->
+  <h1 class="p-4 underline decoration-4 decoration-black">Floats :</h1>
+  <div class="w-1/2">
+    <img class="h-48 w-48 float-right m-4" src="../assets//img/img1.jpg" alt="">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, magnam. Quaerat atque laboriosam explicabo harum? Sapiente nam et laborum facere voluptates accusamus. Ea architecto iure commodi reiciendis possimus eos perspiciatis!</p>
+  </div>
+</body>
+
 </html>
 
 <!-- Position Classes
